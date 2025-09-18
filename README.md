@@ -35,26 +35,6 @@ npm test
 REACT_APP_API_URL=http://localhost:5000/api
 ```
 
-### Backend (.env) - For Reference
-```env
-# Database
-MONGO_URI=mongodb://localhost:27017/assignment-portal
-# or MongoDB Atlas: mongodb+srv://username:password@cluster.mongodb.net/assignment-portal
-
-# Authentication
-JWT_SECRET=your-super-secret-jwt-key-here
-
-# Server Configuration
-PORT=5000
-NODE_ENV=development
-
-# Optional: Email Service (if using email notifications)
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASS=your-app-password
-```
-
 ## 📝 Key Features & Assumptions
 
 ### 🔒 Authentication
